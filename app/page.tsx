@@ -1,101 +1,177 @@
-import Image from "next/image";
+import Image from 'next/image';
+import { AiOutlineEnvironment } from 'react-icons/ai';
 
-export default function Home() {
+
+export default function CV() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <div className="min-h-screen bg-gray-100 p-12 ">
+      <div className="max-w-5xl mx-auto    flex">
+        {/* Sidebar bên trái */}
+        <div className="w-1/4    ">
+          <div className="flex flex-col items-center  bg-white text-black p-6  h-[250px] border  rounded-lg">
+            {/* Ảnh đại diện */}
             <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/img/img3.jpg"
+              alt="Description"
+              width={128} // Thiết lập chiều rộng ảnh
+              height={128} // Thiết lập chiều cao ảnh
+              className="rounded-full mb-2"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <h1 className="text-xl font-bold text-center">Hung To</h1>
+            <p className="text-xs text-center mt-3">
+              <AiOutlineEnvironment className="inline-block mr-2 text-sm" />
+              Ho Chi Minh City, Vietnam
+            </p>
+          </div>
+          <div className="flex flex-col border rounded-lg bg-white text-black p-6 h-[250px] mt-4">
+            <h1 className="text-s  ">Highlights</h1>
+            {/* Dòng nội dung với ảnh và text */}
+            <div className="flex items-center mt-4">
+              {/* Ảnh bên trái */}
+              <div className="flex-shrink-0 mr-4">
+                <Image
+                  src="/img/1.jpg"
+                  alt="Description"
+                  width={40} // Thiết lập chiều rộng ảnh
+                  height={20} // Thiết lập chiều cao ảnh
+                  className="rounded-full mb-2"
+                />
+              </div>
+              {/* Nội dung bên phải */}
+              <div className="flex-grow">
+                <p className="text-[10px]">
+                  Scrum Training Certificate - Axon Active
+                </p>
+                <a
+                  href="https://example.com" // Đường dẫn đến liên kết
+                  className="text-blue-500 hover:underline mt-2 block text-[10px]" // Định dạng cho liên kết
+                >
+                  View certificate
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        {/* Nội dung bên phải */}
+        <div className="w-3/4 ml-6">
+          <div className="bg-white p-6 border  rounded-lg  ">
+            <section className="">
+              <p className="text-gray-700 text-xs">Over the past 8 years, I have worked with a wide range of technologies to
+                deliver high-quality web solutions to clients across different industries. I have been working as a ReactJS Developer,
+                honing my skills in developing complex web applications and user interfaces. I have a deep understanding of ReactJS
+                frameworks such as Redux, NextJS, and GraphQL, and I am proficient in using tools such as Git, JIRA, and Trello to
+                manage projects and collaborate with team members.
+                My experience includes developing responsive websites,
+                implementing RESTful APIs, integrating third-party libraries, and optimizing web applications for performance.
+                What sets me apart from other developers is my ability to work effectively in a team
+                environment and my commitment to delivering projects on time and within budget.
+                I am a quick learner and I am always willing to take on new challenges to expand my skill set.
+              </p>
+            </section>
+          </div>
+          <div>
+            <h1 className="text-xl font-bold mt-4">Experience</h1>
+          </div>
+          <div className="bg-white p-4 mt-2 border  rounded-lg  ">
+            <section className="mb-6">
+              <h2 className="text-sm font-bold text-gray-800 mb-2">Work history</h2>
+              <div className="flex mt-2">
+                {/* Ảnh bên trái */}
+                <div className="flex-shrink-0 mr-2">
+                  <Image
+                    src="/img/2.png"
+                    alt="Description"
+                    width={48}
+                    height={128}
+                    className="rounded-full mb-2"
+                  />
+                </div>
+                {/* Nội dung bên phải */}
+                <div className="flex-grow">
+                  <h2 className="text-xs font-bold text-gray-800 mb-2">Senior Blockchain Frontend Developer at IX Swap</h2>
+                  <ul className="list-disc list-inside text-gray-600 text-xs">
+                    <li>Design and develop user interfaces for the IX Swap web application using modern front-end technologies (HTML, CSS, JavaScript)</li>
+                    <li>Integrate with blockchain APIs and smart contracts</li>
+                    <li>Optimize website performance and ensure a responsive design across all devices</li>
+                    <li>Write clean, maintainable, and well-documented code</li>
+                    <li>Collaborate with designers, backend developers, and blockchain engineers</li>
+                    <li>Stay up-to-date on the latest trends in frontend development and blockchain technology</li>
+                    <li>Building user interfaces for decentralized exchanges (DEXs)</li>
+                    <li>Testing and debugging blockchain applications</li>
+                    <li>Handle continuous integration/continuous delivery (CI/CD) pipelines</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div>
+            <h1 className="text-xl font-bold mt-4">Freelance Projects</h1>
+          </div>
+          <div className="bg-white p-6 mt-2  border  rounded-lg ">
+            <div className="flex justify-between items-center p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+                  Ninza
+                </div>
+
+              </div>
+              {/* Right section: Other text items */}
+              <div className="flex space-x-2">
+                <div className="bg-[#E4EBE4] text-black text-xs px-2 py-1 rounded-md">ReactJS</div>
+                <div className="bg-[#E4EBE4] text-black text-xs px-2 py-1 rounded-md">@injectivelabs libraries</div>
+                <div className="bg-[#E4EBE4] text-black text-xs px-2 py-1 rounded-md">Redux Toolkit</div>
+                <div className="bg-[#E4EBE4] text-black text-xs px-2 py-1 rounded-md">Deploy to Vultr</div>
+                <div className="bg-[#E4EBE4] text-black text-xs px-2 py-1 rounded-md">Blockchain</div>
+              </div>
+
+            </div>
+            <a
+              href="https://inj.ninza.xyz/" // Đường dẫn đến liên kết
+              className="p-2 text-blue-500 hover:underline   block text-sm  " // Định dạng cho liên kết
+            >
+              https://inj.ninza.xyz/
+            </a>
+            <h1 className='p-2 text-black text-xs'>Ninza is an idle social game where you can grow, train your own ninja, and compete with other players. It is built on the Injective Network
+
+            </h1>
+          </div>
+          <div>
+            <h1 className="text-xl font-bold mt-4">Education</h1>
+          </div>
+          <div className="bg-white p-6 mt-2 border  rounded-lg  ">
+            <h1 className="text-sm font-bold">Credentials</h1>
+            {/* Dòng nội dung với ảnh và text */}
+            <div className="flex items-center mt-4">
+              {/* Ảnh bên trái */}
+              <div className="flex-shrink-0 mr-4">
+                <Image
+                  src="/img/2.png"
+                  alt="Description"
+                  width={48} // Thiết lập chiều rộng ảnh
+                  height={128} // Thiết lập chiều cao ảnh
+                  className="rounded-full mb-2"
+                />
+              </div>
+              {/* Nội dung bên phải */}
+              <div className="flex-grow">
+                <p className="text-sm font-bold">
+                  Ho Chi Minh City University of Agriculture and Forestry
+                </p>
+                <p className=" text-sm text-gray-500"> Engineer  degree in Software Engineering</p>
+                <p className=" text-xs text-gray-500 font-bold">4.5 years program • Completed May 2024</p>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </div >
   );
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +18,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans", sans-serif; /* Sử dụng Noto Sans */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .noto-sans-bold {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Thay thế <weight> bằng giá trị thực tế */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
 }
