@@ -16,7 +16,7 @@
 }
 
 body {
-  color: var(--foreground);
+  color: inherit;
   background: var(--background);
   font-family: "Noto Sans", sans-serif; /* Sử dụng Noto Sans */
 }
