@@ -1,30 +1,29 @@
 import Image from 'next/image';
 import { AiOutlineEnvironment } from 'react-icons/ai';
 
-
 export default function CV() {
   return (
-    <div className="min-h-screen bg-gray-100 p-12 ">
-      <div className="    flex   max-w-[1440px] mx-auto sm:p-[48px]">
+    <div className="min-h-screen bg-gray-100 p-4 sm:p-6 lg:p-12">
+      <div className="flex flex-col lg:flex-row max-w-[1440px] mx-auto">
         {/* Sidebar bên trái */}
-        <div className="w-1/4    ">
-          <div className="flex flex-col items-center  bg-white text-black p-6  h-[250px] border  rounded-lg">
+        <div className="w-full lg:w-1/4 mb-4 lg:mb-0">
+          <div className="flex flex-col items-center bg-white text-black p-6 border rounded-lg">
             {/* Ảnh đại diện */}
             <Image
               src="/img/img3.jpg"
               alt="Description"
-              width={118} // Thiết lập chiều rộng ảnh
+              width={128} // Thiết lập chiều rộng ảnh
               height={128} // Thiết lập chiều cao ảnh
               className="rounded-full mb-2"
             />
-            <h1 className="font-medium text-[28px] my-2 text-center">Hung To</h1>
-            <p className="text-[15px] text-center  ">
-              <AiOutlineEnvironment className="inline-block mr-2 text-[18px]" />
+            <h1 className="font-medium text-2xl my-2 text-center">Hung To</h1>
+            <p className="text-sm text-center">
+              <AiOutlineEnvironment className="inline-block mr-2 text-lg" />
               Ho Chi Minh City, Vietnam
             </p>
           </div>
-          <div className="flex flex-col border rounded-lg bg-white text-black p-6 h-[250px] mt-4">
-            <h1 className="text-[20px] text-[#1f1f1f] mb-4 font-medium ">Highlights</h1>
+          <div className="flex flex-col border rounded-lg bg-white text-black p-6 mt-4">
+            <h1 className="text-lg text-[#1f1f1f] mb-4 font-medium">Highlights</h1>
             {/* Dòng nội dung với ảnh và text */}
             <div className="flex items-center mt-4">
               {/* Ảnh bên trái */}
@@ -33,18 +32,18 @@ export default function CV() {
                   src="/img/1.jpg"
                   alt="Description"
                   width={40} // Thiết lập chiều rộng ảnh
-                  height={20} // Thiết lập chiều cao ảnh
+                  height={40} // Thiết lập chiều cao ảnh
                   className="rounded-full mb-2"
                 />
               </div>
               {/* Nội dung bên phải */}
               <div className="flex-grow">
-                <p className="text-[12px]">
+                <p className="text-sm">
                   Scrum Training Certificate - Axon Active
                 </p>
                 <a
                   href="https://example.com" // Đường dẫn đến liên kết
-                  className="text-[12px] text-[#0056d2] underline" // Định dạng cho liên kết
+                  className="text-sm text-[#0056d2] underline" // Định dạng cho liên kết
                 >
                   View certificate
                 </a>
@@ -53,9 +52,9 @@ export default function CV() {
           </div>
         </div>
         {/* Nội dung bên phải */}
-        <div className="w-3/4 ml-6">
-          <div className="bg-white p-6 border  rounded-lg  ">
-            <section className="">
+        <div className="w-full lg:w-3/4 lg:ml-6">
+          <div className="bg-white p-6 border rounded-lg">
+            <section>
               <p className="text-gray-700 text-sm">
                 Over the past 8 years, I have worked with a wide range of technologies to deliver high-quality web solutions to clients across different industries. I have been working as a ReactJS Developer, honing my skills in developing complex web applications and user interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GraphQL, and I am proficient in using tools such as Git, JIRA, and Trello to manage projects and collaborate with team members.
               </p>
@@ -66,14 +65,13 @@ export default function CV() {
                 What sets me apart from other developers is my ability to work effectively in a team environment and my commitment to delivering projects on time and within budget. I am a quick learner and I am always willing to take on new challenges to expand my skill set.
               </p>
             </section>
-
           </div>
           <div>
-            <h1 className="text-[28px] font-semibold mt-4">Experience</h1>
+            <h1 className="text-2xl font-semibold mt-4">Experience</h1>
           </div>
-          <div className="bg-white p-4 mt-2 border  rounded-lg  ">
+          <div className="bg-white p-4 mt-2 border rounded-lg">
             <section className="mb-6">
-              <h2 className="   text-gray-800 text-[18px] font-semibold mb-4">Work history</h2>
+              <h2 className="text-gray-800 text-lg font-semibold mb-4">Work history</h2>
               <div className="flex mt-2">
                 {/* Ảnh bên trái */}
                 <div className="flex-shrink-0 mr-2">
@@ -81,7 +79,7 @@ export default function CV() {
                     src="/img/2.png"
                     alt="Description"
                     width={48}
-                    height={128}
+                    height={48}
                     className="rounded-full mb-2"
                   />
                 </div>
@@ -108,42 +106,38 @@ export default function CV() {
             </section>
           </div>
           <div>
-            <h1 className="text-[28px] font-semibold mt-4">Freelance Projects</h1>
+            <h1 className="text-2xl font-semibold mt-4">Freelance Projects</h1>
           </div>
-          <div className="bg-white p-6 mt-2  border  rounded-lg ">
+          <div className="bg-white p-6 mt-2 border rounded-lg">
             <div className="flex justify-between items-center p-2">
               {/* Left section: Ninza */}
               <div>
                 <div className="text-sm font-bold">
                   Ninza
                 </div>
-
               </div>
               {/* Right section: Other text items */}
-              <div className="flex space-x-2">
-                <div className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">@injectivelabs libraries</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Toolkit</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Deploy to Vultr</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</div>
+              <div className="hidden md:flex flex-wrap space-x-2">
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">ReactJS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">@injectivelabs libraries</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Redux Toolkit</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vultr</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Blockchain</div>
               </div>
-
             </div>
             <a
               href="https://inj.ninza.xyz/" // Đường dẫn đến liên kết
-              className="text-[#108a00] font-medium  p-2 rounded " // Định dạng cho liên kết
+              className="text-[#108a00] font-medium p-2 rounded"
             >
               https://inj.ninza.xyz/
             </a>
-            <h1 className='p-2 text-black text-sm'>Ninza is an idle social game where you can grow, train your own ninja, and compete with other players. It is built on the Injective Network
-
-            </h1>
+            <h1 className='p-2 text-black text-sm'>Ninza is an idle social game where you can grow, train your own ninja, and compete with other players. It is built on the Injective Network.</h1>
           </div>
           <div>
-            <h1 className=" text-[28px] font-semibold mt-4">Education</h1>
+            <h1 className="text-2xl font-semibold mt-4">Education</h1>
           </div>
-          <div className="bg-white p-6 mt-2 border  rounded-lg  ">
-            <h1 className="text-[18px] font-semibold ">Credentials</h1>
+          <div className="bg-white p-6 mt-2 border rounded-lg">
+            <h1 className="text-lg font-semibold">Credentials</h1>
             {/* Dòng nội dung với ảnh và text */}
             <div className="flex items-center mt-4">
               {/* Ảnh bên trái */}
@@ -152,7 +146,7 @@ export default function CV() {
                   src="/img/2.png"
                   alt="Description"
                   width={48} // Thiết lập chiều rộng ảnh
-                  height={128} // Thiết lập chiều cao ảnh
+                  height={48} // Thiết lập chiều cao ảnh
                   className="rounded-full mb-2"
                 />
               </div>
@@ -161,20 +155,13 @@ export default function CV() {
                 <p className="font-semibold">
                   Ho Chi Minh City University of Agriculture and Forestry
                 </p>
-                <p className=" text-[#1f1f1f] "> Engineer  degree in Software Engineering</p>
-                <p className=" font-semibold text-[#636363] text-[14px]">4.5 years program • Completed May 2024</p>
+                <p className="text-[#1f1f1f]">Engineer degree in Software Engineering</p>
+                <p className="font-semibold text-[#636363] text-sm">4.5 years program • Completed May 2024</p>
               </div>
             </div>
-
-
-
-
-
-
           </div>
         </div>
-
       </div>
-    </div >
+    </div>
   );
 }
