@@ -123,7 +123,7 @@ export default function CV() {
             >
              https://admin-frontend-ochre.vercel.app
             </a>
-            <h1 className='p-2 text-black text-sm'>The Admin Dashboard frontend is a management interface that allows administrators to monitor and manage the application's functionalities</h1>
+            <h1 className='p-2 text-black text-sm'>The Admin Dashboard frontend is a management interface that allows administrators to monitor and manage the application functionalities</h1>
           </div>
 
 
