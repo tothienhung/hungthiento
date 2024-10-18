@@ -42,9 +42,9 @@ export default function CV() {
                   Scrum Training Certificate - Axon Active
                 </p>
                 <a
-                  href="https://example.com" // Đường dẫn đến liên kết
+                  href="https://verified.sertifier.com/en/verify/96291607243483/?ref=email" // Đường dẫn đến liên kết
                   className="text-sm text-[#0056d2] underline" // Định dạng cho liên kết
-                >
+                >  
                   View certificate
                 </a>
               </div>
@@ -56,13 +56,10 @@ export default function CV() {
           <div className="bg-white p-6 border rounded-lg">
             <section>
               <p className="text-gray-700 text-sm">
-                Over the past 8 years, I have worked with a wide range of technologies to deliver high-quality web solutions to clients across different industries. I have been working as a ReactJS Developer, honing my skills in developing complex web applications and user interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GraphQL, and I am proficient in using tools such as Git, JIRA, and Trello to manage projects and collaborate with team members.
+              As an intern, I have gained hands-on experience with various technologies, focusing on delivering web solutions using ReactJS. I have worked on developing user interfaces, responsive websites, and integrating RESTful APIs. My experience includes using React frameworks like Next.js and managing state with tools like Redux. I am proficient with Git for version control and have collaborated with teams using project management tools such as JIRA and Trello.
               </p>
               <p className="text-gray-700 text-sm mt-2">
-                My experience includes developing responsive websites, implementing RESTful APIs, integrating third-party libraries, and optimizing web applications for performance.
-              </p>
-              <p className="text-gray-700 text-sm mt-2">
-                What sets me apart from other developers is my ability to work effectively in a team environment and my commitment to delivering projects on time and within budget. I am a quick learner and I am always willing to take on new challenges to expand my skill set.
+              I am a fast learner, passionate about web development, and always eager to take on new challenges to expand my skill set. I thrive in team environments and am committed to delivering high-quality work.
               </p>
             </section>
           </div>
@@ -86,20 +83,17 @@ export default function CV() {
                 {/* Nội dung bên phải */}
                 <div className="flex-grow">
                   <div className="flex items-center">
-                    <h2 className="text-base font-semibold">Senior Blockchain Frontend Developer at IX Swap</h2>
+                    <h2 className="text-base font-semibold">Admin Dashboard</h2>
                     <p className="ml-2 text-[#636363]">(May 2024 up to Present)</p>
                   </div>
 
                   <ul className="ml-4 list-disc text-[#636363]">
-                    <li className="text-sm mt-1">Design and develop user interfaces for the IX Swap web application using modern front-end technologies (HTML, CSS, JavaScript)</li>
-                    <li className="text-sm mt-1">Integrate with blockchain APIs and smart contracts</li>
-                    <li className="text-sm mt-1">Optimize website performance and ensure a responsive design across all devices</li>
-                    <li className="text-sm mt-1">Write clean, maintainable, and well-documented code</li>
-                    <li className="text-sm mt-1">Collaborate with designers, backend developers, and blockchain engineers</li>
-                    <li className="text-sm mt-1">Stay up-to-date on the latest trends in frontend development and blockchain technology</li>
-                    <li className="text-sm mt-1">Building user interfaces for decentralized exchanges (DEXs)</li>
-                    <li className="text-sm mt-1">Testing and debugging blockchain applications</li>
-                    <li className="text-sm mt-1">Handle continuous integration/continuous delivery (CI/CD) pipelines</li>
+                    <li className="text-sm mt-1">Design and develop user interfaces for web application using React.js and  Node.js</li>
+                    <li className="text-sm mt-1">Optimize website performance, ensuring a responsive</li>
+                    <li className="text-sm mt-1">Stay up-to-date with the latest trends in frontend development and the React</li>
+                    <li className="text-sm mt-1">Build and enhance user interfaces for the application, focusing on user experience and funct</li>
+                    <li className="text-sm mt-1">Conduct testing and debugging to ensure robust application performance</li>
+  
                   </ul>
                 </div>
               </div>
@@ -113,25 +107,48 @@ export default function CV() {
               {/* Left section: Ninza */}
               <div>
                 <div className="text-sm font-bold">
-                  Ninza
+                Admin Dashboard - Frontend
                 </div>
               </div>
               {/* Right section: Other text items */}
               <div className="hidden md:flex flex-wrap space-x-2">
                 <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">ReactJS</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">@injectivelabs libraries</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Redux Toolkit</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vultr</div>
-                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Blockchain</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Tailwind CSS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vecel</div>
               </div>
             </div>
-            <a
-              href="https://inj.ninza.xyz/" // Đường dẫn đến liên kết
+           <a
+              href="https://admin-frontend-ochre.vercel.app"
               className="text-[#108a00] font-medium p-2 rounded"
             >
-              https://inj.ninza.xyz/
+             https://admin-frontend-ochre.vercel.app
             </a>
-            <h1 className='p-2 text-black text-sm'>Ninza is an idle social game where you can grow, train your own ninja, and compete with other players. It is built on the Injective Network.</h1>
+            <h1 className='p-2 text-black text-sm'>The Admin Dashboard frontend is a management interface that allows administrators to monitor and manage the application's functionalities</h1>
+          </div>
+
+
+          <div className="bg-white p-6 mt-2 border rounded-lg">
+            <div className="flex justify-between items-center p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+                Admin Dashboard - Backend
+                </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden md:flex flex-wrap space-x-2">
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Node.js</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">MySQL</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vecel</div>
+              </div>
+            </div>     
+           <a
+              href="https://dev-to-backend-abx5.vercel.app" // Đường dẫn đến liên kết
+              className="text-[#108a00] font-medium p-2 rounded"
+            >
+            https://dev-to-backend-abx5.vercel.app
+            </a>
+            <h1 className='p-2 text-black text-sm'>The Admin Dashboard backend is responsible for managing data, handling requests, and ensuring the security and functionality of the application.</h1>
           </div>
           <div>
             <h1 className="text-2xl font-semibold mt-4">Education</h1>
