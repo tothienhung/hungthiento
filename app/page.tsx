@@ -91,7 +91,7 @@ export default function CV() {
                     <li className="text-sm mt-1">Design and develop user interfaces for web application using React.js and  Node.js</li>
                     <li className="text-sm mt-1">Optimize website performance, ensuring a responsive</li>
                     <li className="text-sm mt-1">Stay up-to-date with the latest trends in frontend development and the React</li>
-                    <li className="text-sm mt-1">Build and enhance user interfaces for the application, focusing on user experience and funct</li>
+                    <li className="text-sm mt-1">Build and enhance user interfaces for the application, focusing on user experience  </li>
                     <li className="text-sm mt-1">Conduct testing and debugging to ensure robust application performance</li>
   
                   </ul>
