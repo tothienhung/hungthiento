@@ -73,7 +73,7 @@ export default function CV() {
                 {/* Ảnh bên trái */}
                 <div className="flex-shrink-0 mr-2">
                   <Image
-                    src="/img/2.png"
+                    src="/img/123.JPG"
                     alt="Description"
                     width={48}
                     height={48}
@@ -100,7 +100,7 @@ export default function CV() {
             </section>
           </div>
           <div>
-            <h1 className="text-2xl font-semibold mt-4">Freelance Projects</h1>
+            <h1 className="text-2xl font-semibold mt-4">Projects</h1>
           </div>
           <div className="bg-white p-6 mt-2 border rounded-lg">
             <div className="flex justify-between items-center p-2">
@@ -150,6 +150,56 @@ export default function CV() {
             </a>
             <h1 className='p-2 text-black text-sm'>The Admin Dashboard backend is responsible for managing data, handling requests, and ensuring the security and functionality of the application.</h1>
           </div>
+
+          <div className="bg-white p-6 mt-2 border rounded-lg">
+            <div className="flex justify-between items-center p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+                Simea 
+                </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden md:flex flex-wrap space-x-2">
+              <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">ReactJS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Tailwind CSS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vecel</div>
+              </div>
+            </div>     
+           <a
+              href="https://www.simea.vn" // Đường dẫn đến liên kết
+              className="text-[#108a00] font-medium p-2 rounded"
+            >
+            https://www.simea.vn
+            </a>
+            <h1 className='p-2 text-black text-sm'>The coffee shop interface aims to provide a smooth user experience, helping customers easily explore the menu.</h1>
+          </div>
+
+
+          <div className="bg-white p-6 mt-2 border rounded-lg">
+            <div className="flex justify-between items-center p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+              Verinlayer 
+                </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden md:flex flex-wrap space-x-2">
+              <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">ReactJS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Tailwind CSS</div>
+                <div className="bg-[#E4EBE4] px-2 py-1 text-sm rounded-lg">Deploy to Vecel</div>
+              </div>
+            </div>     
+           <a
+              href="https://verinlayer-ui.vercel.app/" // Đường dẫn đến liên kết
+              className="text-[#108a00] font-medium p-2 rounded"
+            >
+            https://verinlayer-ui.vercel.app/
+            </a>
+            <h1 className='p-2 text-black text-sm'>Make UI
+            </h1>
+          </div>
           <div>
             <h1 className="text-2xl font-semibold mt-4">Education</h1>
           </div>
@@ -168,13 +218,41 @@ export default function CV() {
                 />
               </div>
               {/* Nội dung bên phải */}
-              <div className="flex-grow">
+              <div className="">
                 <p className="font-semibold">
                   Ho Chi Minh City University of Agriculture and Forestry
                 </p>
                 <p className="text-[#1f1f1f]">Engineer degree in Software Engineering</p>
                 <p className="font-semibold text-[#636363] text-sm">4.5 years program • Completed May 2024</p>
               </div>
+              </div>
+
+
+              <div className="flex items-center mt-4">
+              {/* Ảnh bên trái */}
+              <div className="flex-shrink-0 mr-4">
+                <Image
+                  src="/img/1.jpg"
+                  alt="Description"
+                  width={48} // Thiết lập chiều rộng ảnh
+                  height={48} // Thiết lập chiều cao ảnh
+                  className="rounded-full mb-2"
+                />
+              </div>
+              {/* Nội dung bên phải */}
+              <div className="flex-grow">
+                <p className="font-semibold ">
+                  Scrum Training Certificate - Axon Active
+                </p>
+                <a
+                  href="https://verified.sertifier.com/en/verify/96291607243483/?ref=email" // Đường dẫn đến liên kết
+                  className="text-sm text-[#0056d2] underline" // Định dạng cho liên kết
+                >  
+                  View certificate
+                </a>
+                <p className="font-semibold text-[#636363] text-sm">3 months program • Completed May 2024</p>
+              </div>
+             
             </div>
           </div>
         </div>
@@ -182,3 +260,4 @@ export default function CV() {
     </div>
   );
 }
+ 
