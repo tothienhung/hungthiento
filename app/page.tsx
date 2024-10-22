@@ -192,10 +192,10 @@ export default function CV() {
               </div>
             </div>     
            <a
-              href="https://verinlayer-ui.vercel.app/" // Đường dẫn đến liên kết
+              href="https://layer-verin-ui.vercel.app" // Đường dẫn đến liên kết
               className="text-[#108a00] font-medium p-2 rounded"
             >
-            https://verinlayer-ui.vercel.app/
+            https://layer-verin-ui.vercel.app
             </a>
             <h1 className='p-2 text-black text-sm'>Make UI
             </h1>
