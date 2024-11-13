@@ -10,7 +10,7 @@ export default function CV() {
           <div className="flex flex-col items-center rounded-lg border bg-white p-6 text-black">
             {/* Ảnh đại diện */}
             <Image
-              src="/img/img3.jpg"
+              src="/img/img1234.jfif"
               alt="Description"
               width={128} // Thiết lập chiều rộng ảnh
               height={128} // Thiết lập chiều cao ảnh
