@@ -10,11 +10,11 @@ export default function CV() {
           <div className="flex flex-col items-center rounded-lg border bg-white p-6 text-black">
             {/* Ảnh đại diện */}
             <Image
-              src="/img/img1234.jfif"
+              src="/img/ato.JPG"
               alt="Description"
               width={128} // Thiết lập chiều rộng ảnh
               height={128} // Thiết lập chiều cao ảnh
-              className="mb-2 rounded-full"
+              className="mb-2 rounded-full border-4 border-[#3AB8FE]"
             />
             <h1 className="my-2 text-center text-2xl font-medium">Hung To</h1>
             <p className="text-center text-sm">
@@ -24,9 +24,11 @@ export default function CV() {
             <p className="text-center text-sm">
               Contact:
               <br />
-              Phone: 0858990375
+              Phone:
+              <span className="font-bold"> 0858990375</span>
               <br />
-              Email: thienhungto@gmail.com
+              Email:
+              <span className="font-bold"> thienhungto@gmail.com</span>
             </p>
           </div>
           <div className="mt-4 flex flex-col rounded-lg border bg-white p-6 text-black">
@@ -229,6 +231,33 @@ export default function CV() {
               className="rounded p-2 font-medium text-[#108a00]"
             >
               https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
+            </a>
+            <h1 className="p-2 text-sm text-black">Make UI</h1>
+          </div>
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">Muadee</div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  ReactJS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Tailwind CSS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://www.muadee.com.vn/thanh-toan-voi-apple-pay" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://www.muadee.com.vn/thanh-toan-voi-apple-pay
             </a>
             <h1 className="p-2 text-sm text-black">Make UI</h1>
           </div>
