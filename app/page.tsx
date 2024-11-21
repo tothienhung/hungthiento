@@ -261,6 +261,53 @@ export default function CV() {
             </a>
             <h1 className="p-2 text-sm text-black">Make UI</h1>
           </div>
+
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">Muadee</div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  ReactJS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Tailwind CSS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+            <div>
+              <a
+                href="https://d3dxi7t02b61aw.cloudfront.net/shopeefood-khao-ban-70k-qua-the-tra-gop-muadee"
+                className="block rounded p-2 font-medium text-[#108a00]"
+              >
+                <span className="block text-sm text-black">Shopee</span>
+                https://d3dxi7t02b61aw.cloudfront.net/shopeefood-khao-ban-70k-qua-the-tra-gop-muadee
+              </a>
+              <a
+                href="https://d3dxi7t02b61aw.cloudfront.net/di-muon-noi-voi-traveloka-giam-150k-qua-muadee"
+                className="block rounded p-2 font-medium text-[#108a00]"
+              >
+                <span className="block text-sm text-black">Traveloka</span>
+                https://d3dxi7t02b61aw.cloudfront.net/di-muon-noi-voi-traveloka-giam-150k-qua-muadee
+              </a>
+              <a
+                href="https://d3dxi7t02b61aw.cloudfront.net/luot-lazada-tha-ga-giam-200k-qua-the-tra-gop-muadee"
+                className="block rounded p-2 font-medium text-[#108a00]"
+              >
+                <span className="block text-sm text-black">Lazada</span>
+                https://d3dxi7t02b61aw.cloudfront.net/luot-lazada-tha-ga-giam-200k-qua-the-tra-gop-muadee
+              </a>
+            </div>
+
+            <h1 className="p-2 text-sm text-black">Make UI</h1>
+          </div>
+
           <div className="mt-2 rounded-lg border bg-white p-6">
             <div className="flex items-center justify-between p-2">
               {/* Left section: Ninza */}
