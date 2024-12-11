@@ -67,14 +67,14 @@ export default function CV() {
           <div className="rounded-lg border bg-white p-6">
             <section>
               <p className="text-sm text-gray-700">
-                As an intern, I have gained hands-on experience with various
+                As a junior developer, I have hands-on experience with various
                 technologies, focusing on delivering web solutions using
-                ReactJS. I have worked on developing user interfaces, responsive
-                websites, and integrating RESTful APIs. My experience includes
-                using React frameworks like Next.js and managing state with
-                tools like Redux. I am proficient with Git for version control
-                and have collaborated with teams using project management tools
-                such as JIRA and Trello.
+                ReactJS. I have worked on developing user interfaces, creating
+                responsive websites, and integrating RESTful APIs. My experience
+                includes using React frameworks like Next.js and managing state
+                with tools such as Redux Toolkit. I am proficient with Git for
+                version control and have collaborated effectively with teams
+                using project management tools like JIRA and Trello.
               </p>
               <p className="mt-2 text-sm text-gray-700">
                 I am a fast learner, passionate about web development, and
@@ -185,10 +185,13 @@ export default function CV() {
               {/* Right section: Other text items */}
               <div className="hidden flex-wrap space-x-2 md:flex print:flex">
                 <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  ReactJS
+                  Expressjs
                 </div>
                 <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Tailwind CSS
+                  MySQL
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  JWT
                 </div>
                 <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
                   Deploy to Vercel
