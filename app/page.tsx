@@ -210,66 +210,12 @@ export default function CV() {
               the application.
             </h1>
           </div>
-          <div className="mt-2 rounded-lg border bg-white p-6">
-            <div className="flex items-center justify-between p-2">
-              {/* Left section: Ninza */}
-              <div>
-                <div className="text-sm font-bold">Muadee</div>
-              </div>
-              {/* Right section: Other text items */}
-              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  ReactJS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Tailwind CSS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Deploy to Vercel
-                </div>
-              </div>
-            </div>
-            <a
-              href="https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max" // Đường dẫn đến liên kết
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-              https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
-            </a>
-            <h1 className="p-2 text-sm text-black">Make UI</h1>
-          </div>
-          <div className="mt-2 rounded-lg border bg-white p-6">
-            <div className="flex items-center justify-between p-2">
-              {/* Left section: Ninza */}
-              <div>
-                <div className="text-sm font-bold">Muadee</div>
-              </div>
-              {/* Right section: Other text items */}
-              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  ReactJS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Tailwind CSS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Deploy to Vercel
-                </div>
-              </div>
-            </div>
-            <a
-              href="https://www.muadee.com.vn/thanh-toan-voi-apple-pay" // Đường dẫn đến liên kết
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-              https://www.muadee.com.vn/thanh-toan-voi-apple-pay
-            </a>
-            <h1 className="p-2 text-sm text-black">Make UI</h1>
-          </div>
 
           <div className="mt-2 rounded-lg border bg-white p-6">
             <div className="flex items-center justify-between p-2">
               {/* Left section: Ninza */}
               <div>
-                <div className="text-sm font-bold">Muadee</div>
+                <div className="text-sm font-bold">Muadee by HDbank</div>
               </div>
               {/* Right section: Other text items */}
               <div className="hidden flex-wrap space-x-2 md:flex print:flex">
@@ -308,7 +254,20 @@ export default function CV() {
               </a>
             </div>
 
-            <h1 className="p-2 text-sm text-black">Make UI</h1>
+            <h1 className="p-2 text-sm text-black">ApplePay</h1>
+            <a
+              href="https://www.muadee.com.vn/thanh-toan-voi-apple-pay" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://www.muadee.com.vn/thanh-toan-voi-apple-pay
+            </a>
+            <h1 className="p-2 text-sm text-black">Muadee</h1>
+            <a
+              href="https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
+            </a>
           </div>
 
           <div className="mt-2 rounded-lg border bg-white p-6">
