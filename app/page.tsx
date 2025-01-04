@@ -262,11 +262,28 @@ export default function CV() {
               https://www.muadee.com.vn/thanh-toan-voi-apple-pay
             </a>
             <h1 className="p-2 text-sm text-black">Muadee</h1>
+            <div>
+              <a
+                href="https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max" // Đường dẫn đến liên kết
+                className="rounded p-2 font-medium text-[#108a00]"
+              >
+                https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.muadee.com.vn/giam-500k-thoai-mai-mua-sam-qua-the-tra-gop-muadee"
+                className="rounded p-2 font-medium text-[#108a00]"
+              >
+                https://www.muadee.com.vn/giam-500k-thoai-mai-mua-sam-qua-the-tra-gop-muadee
+              </a>
+            </div>
+            <h1 className="p-2 text-sm text-black">ZaloPay</h1>
             <a
-              href="https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max" // Đường dẫn đến liên kết
+              href="https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee" // Đường dẫn đến liên kết
               className="rounded p-2 font-medium text-[#108a00]"
             >
-              https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
+              https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee
             </a>
           </div>
 
