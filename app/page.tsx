@@ -60,6 +60,43 @@ export default function CV() {
                 </a>
               </div>
             </div>
+            <div className="mt-4 flex items-center">
+              {/* Ảnh bên trái */}
+              <div className="mr-4 flex-shrink-0">
+                <Image
+                  src="/img/2.png"
+                  alt="Description"
+                  width={48} // Thiết lập chiều rộng ảnh
+                  height={48} // Thiết lập chiều cao ảnh
+                  className="mb-2 rounded-full"
+                />
+              </div>
+              {/* Nội dung bên phải */}
+              <div className="">
+                <p className="text-sm">
+                  Ho Chi Minh City University of Agriculture and Forestry
+                </p>
+                <p className="text-sm text-[#0056d2]">Software engineer</p>
+              </div>
+            </div>
+
+            <div className="mt-4 flex items-center">
+              {/* Ảnh bên trái */}
+              <div className="mr-4 flex-shrink-0">
+                <Image
+                  src="/img/toeic.jpg"
+                  alt="Description"
+                  width={48} // Thiết lập chiều rộng ảnh
+                  height={48} // Thiết lập chiều cao ảnh
+                  className="mb-2 rounded-full"
+                />
+              </div>
+              {/* Nội dung bên phải */}
+              <div className="">
+                <p className="text-sm">Toeic</p>
+                <p className="text-sm text-[#0056d2]">Total Score: 600</p>
+              </div>
+            </div>
           </div>
         </div>
         {/* Nội dung bên phải */}
@@ -67,7 +104,7 @@ export default function CV() {
           <div className="rounded-lg border bg-white p-6">
             <section>
               <p className="text-sm text-gray-700">
-                As a junior developer, I have hands-on experience with various
+                As a developer, I have hands-on experience with various
                 technologies, focusing on delivering web solutions using
                 ReactJS. I have worked on developing user interfaces, creating
                 responsive websites, and integrating RESTful APIs. My experience
@@ -90,13 +127,18 @@ export default function CV() {
           <div className="mt-2 rounded-lg border bg-white p-4">
             <section className="mb-6">
               <h2 className="mb-4 text-lg font-semibold text-gray-800">
-                Work history
+                Work history{' '}
+                <span className="text-sm text-[#636363]">
+                  {' '}
+                  (1 year of experience){' '}
+                </span>
               </h2>
+
               <div className="mt-2 flex">
                 {/* Ảnh bên trái */}
                 <div className="mr-2 flex-shrink-0">
                   <Image
-                    src="/img/123.JPG"
+                    src="/img/muadee.png"
                     alt="Description"
                     width={48}
                     height={48}
@@ -106,9 +148,11 @@ export default function CV() {
                 {/* Nội dung bên phải */}
                 <div className="flex-grow">
                   <div className="flex items-center">
-                    <h2 className="text-base font-semibold">Admin Dashboard</h2>
+                    <h2 className="text-base font-semibold">
+                      ReactJS member at Muadee
+                    </h2>
                     <p className="ml-2 text-[#636363]">
-                      (May 2024 up to Present)
+                      (February 2024 to January 2025)
                     </p>
                   </div>
 
@@ -139,76 +183,6 @@ export default function CV() {
           </div>
           <div>
             <h1 className="mt-4 text-2xl font-semibold">Projects</h1>
-          </div>
-          <div className="mt-2 rounded-lg border bg-white p-6">
-            <div className="flex items-center justify-between p-2">
-              {/* Left section: Ninza */}
-              <div>
-                <div className="text-sm font-bold">
-                  Admin Dashboard - Frontend
-                </div>
-              </div>
-              {/* Right section: Other text items */}
-              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  ReactJS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Tailwind CSS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Deploy to Vercel
-                </div>
-              </div>
-            </div>
-            <a
-              href="https://admin-frontend-ochre.vercel.app"
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-              https://admin-frontend-ochre.vercel.app
-            </a>
-            <h1 className="p-2 text-sm text-black">
-              The Admin Dashboard frontend is a management interface that allows
-              administrators to monitor and manage the application
-              functionalities
-            </h1>
-          </div>
-
-          <div className="mt-2 rounded-lg border bg-white p-6">
-            <div className="flex items-center justify-between p-2">
-              {/* Left section: Ninza */}
-              <div>
-                <div className="text-sm font-bold">
-                  Admin Dashboard - Backend
-                </div>
-              </div>
-              {/* Right section: Other text items */}
-              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Expressjs
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  MySQL
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  JWT
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Deploy to Vercel
-                </div>
-              </div>
-            </div>
-            <a
-              href="https://dev-to-backend-abx5.vercel.app" // Đường dẫn đến liên kết
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-              https://dev-to-backend-abx5.vercel.app
-            </a>
-            <h1 className="p-2 text-sm text-black">
-              The Admin Dashboard backend is responsible for managing data,
-              handling requests, and ensuring the security and functionality of
-              the application.
-            </h1>
           </div>
 
           <div className="mt-2 rounded-lg border bg-white p-6">
@@ -285,6 +259,76 @@ export default function CV() {
             >
               https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee
             </a>
+          </div>
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+                  Admin Dashboard - Frontend
+                </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  ReactJS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Tailwind CSS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://admin-frontend-ochre.vercel.app"
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://admin-frontend-ochre.vercel.app
+            </a>
+            <h1 className="p-2 text-sm text-black">
+              The Admin Dashboard frontend is a management interface that allows
+              administrators to monitor and manage the application
+              functionalities
+            </h1>
+          </div>
+
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">
+                  Admin Dashboard - Backend
+                </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Expressjs
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  MySQL
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  JWT
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://dev-to-backend-abx5.vercel.app" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://dev-to-backend-abx5.vercel.app
+            </a>
+            <h1 className="p-2 text-sm text-black">
+              The Admin Dashboard backend is responsible for managing data,
+              handling requests, and ensuring the security and functionality of
+              the application.
+            </h1>
           </div>
 
           <div className="mt-2 rounded-lg border bg-white p-6">
