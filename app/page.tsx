@@ -9,13 +9,16 @@ export default function CV() {
         <div className="mb-4 w-full lg:mb-0 lg:w-1/4">
           <div className="flex flex-col items-center rounded-lg border bg-white p-6 text-black">
             {/* Ảnh đại diện */}
-            <Image
-              src="/img/ato.JPG"
-              alt="Description"
-              width={128} // Thiết lập chiều rộng ảnh
-              height={128} // Thiết lập chiều cao ảnh
-              className="mb-2 rounded-full border-4 border-[#3AB8FE]"
-            />
+            <div className="mb-2 w-32 h-32 rounded-full border-4 border-[#3AB8FE] overflow-hidden">
+              <Image
+                src="/img/ato_2.jpg"
+                alt="Description"
+                width={128} // Thiết lập chiều rộng ảnh
+                height={128} // Thiết lập chiều cao ảnh
+                className="object-cover w-full h-full"
+                unoptimized
+              />
+            </div>
             <h1 className="my-2 text-center text-2xl font-medium">Hung To</h1>
             <p className="text-center text-sm">
               <AiOutlineEnvironment className="mr-2 inline-block text-lg" />
@@ -44,7 +47,8 @@ export default function CV() {
                   alt="Description"
                   width={40} // Thiết lập chiều rộng ảnh
                   height={40} // Thiết lập chiều cao ảnh
-                  className="mb-2 rounded-full"
+                  className="mb-2 rounded-full object-cover w-10 h-10"
+                  unoptimized
                 />
               </div>
               {/* Nội dung bên phải */}
@@ -68,7 +72,8 @@ export default function CV() {
                   alt="Description"
                   width={48} // Thiết lập chiều rộng ảnh
                   height={48} // Thiết lập chiều cao ảnh
-                  className="mb-2 rounded-full"
+                  className="mb-2 rounded-full object-cover w-12 h-12"
+                  unoptimized
                 />
               </div>
               {/* Nội dung bên phải */}
@@ -88,7 +93,8 @@ export default function CV() {
                   alt="Description"
                   width={48} // Thiết lập chiều rộng ảnh
                   height={48} // Thiết lập chiều cao ảnh
-                  className="mb-2 rounded-full"
+                  className="mb-2 rounded-full object-cover w-12 h-12"
+                  unoptimized
                 />
               </div>
               {/* Nội dung bên phải */}
@@ -130,10 +136,9 @@ export default function CV() {
                 Work history{' '}
                 <span className="text-sm text-[#636363]">
                   {' '}
-                  (1 year of experience){' '}
+                  (2 year of experience){' '}
                 </span>
               </h2>
-
               <div className="mt-2 flex">
                 {/* Ảnh bên trái */}
                 <div className="mr-2 flex-shrink-0">
@@ -142,14 +147,15 @@ export default function CV() {
                     alt="Description"
                     width={48}
                     height={48}
-                    className="mb-2 rounded-full"
+                    className="mb-2 rounded-full object-cover w-12 h-12"
+                    unoptimized
                   />
                 </div>
                 {/* Nội dung bên phải */}
                 <div className="flex-grow">
                   <div className="flex items-center">
                     <h2 className="text-base font-semibold">
-                      ReactJS member at Muadee
+                      Frontend Developer at Muadee
                     </h2>
                     <p className="ml-2 text-[#636363]">
                       (February 2024 to January 2025)
@@ -175,6 +181,63 @@ export default function CV() {
                     <li className="mt-1 text-sm">
                       Conduct testing and debugging to ensure robust application
                       performance
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-2 flex">
+                {/* Ảnh bên trái */}
+                <div className="mr-2 flex-shrink-0">
+                  <Image
+                    src="/img/fidtvn.jpg"
+                    alt="Description"
+                    width={48}
+                    height={48}
+                    className="mb-2 rounded-full object-cover w-12 h-12"
+                    unoptimized
+                  />
+                </div>
+                {/* Nội dung bên phải */}
+                <div className="flex-grow">
+                  <div className="flex items-center">
+                    <h2 className="text-base font-semibold">
+                      Fullstack developer at FIDT
+                    </h2>
+                    <p className="ml-2 text-[#636363]">
+                      (February 2025 to Present)
+                    </p>
+                  </div>
+                  <ul className="ml-4 list-disc text-[#636363]">
+                    <li className="mt-1 text-sm">
+                      Design and develop reactive web user interfaces following the MVVM architecture using Vue.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Build high-performance, lightweight backend services using Hono and Node.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Implement end-to-end type-safe APIs using oRPC to seamlessly bridge Frontend and Backend communication with zero-overhead.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Conduct thorough testing and debugging to ensure robust application performance and high scalability.
+                    </li>
+                  </ul><ul className="ml-4 list-disc text-[#636363]">
+                    <li className="mt-1 text-sm">
+                      Design and develop reactive web user interfaces following the MVVM architecture using Vue.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Build high-performance, lightweight backend services using Hono and Node.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Implement end-to-end type-safe APIs using oRPC to seamlessly bridge Frontend and Backend communication with zero-overhead.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Conduct thorough testing and debugging to ensure robust application performance and high scalability.
                     </li>
                   </ul>
                 </div>
@@ -403,7 +466,8 @@ export default function CV() {
                   alt="Description"
                   width={48} // Thiết lập chiều rộng ảnh
                   height={48} // Thiết lập chiều cao ảnh
-                  className="mb-2 rounded-full"
+                  className="mb-2 rounded-full object-cover w-12 h-12"
+                  unoptimized
                 />
               </div>
               {/* Nội dung bên phải */}
@@ -428,7 +492,8 @@ export default function CV() {
                   alt="Description"
                   width={48} // Thiết lập chiều rộng ảnh
                   height={48} // Thiết lập chiều cao ảnh
-                  className="mb-2 rounded-full"
+                  className="mb-2 rounded-full object-cover w-12 h-12"
+                  unoptimized
                 />
               </div>
               {/* Nội dung bên phải */}
